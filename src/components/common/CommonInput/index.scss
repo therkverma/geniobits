@@ -1,0 +1,28 @@
+.common-input {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 19px;
+
+    input, select {
+        width: 200px;
+        height: 60px;
+        background: white 0% 0% no-repeat padding-box;
+        border-radius: 5px;
+        margin-top: 15px;
+        font-size: 20px;
+        padding: 0 10px;
+        border: 2px solid lightgray;
+        background-color: lightblue;
+        color: blue;
+        &:focus-visible,
+        &:focus,
+        &:active {
+            border: 2px solid blue;
+            outline-color: blue;
+        }
+        &:disabled {
+            background: #d5d5d5;
+        }
+    }
+}

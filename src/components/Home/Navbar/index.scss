@@ -1,0 +1,25 @@
+.navbar-header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    .nav-box-container {
+        height: 72px;
+        padding: 0 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .logo-section {
+            cursor: pointer;
+            margin-left: 60px;
+            img {
+                height: 55px;
+            }
+        }
+
+        #profile-section {
+            margin-right: 60px;
+            outline: none;
+            box-shadow: none;
+        }
+    }
+}

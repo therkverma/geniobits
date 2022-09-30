@@ -1,0 +1,27 @@
+.d-item-container {
+    margin: 0 20px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: white;
+
+    .heading-info {
+        height: 60px;
+        background-color: green;
+        color: white;
+        font-size: 22px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        button {
+            cursor: pointer;
+            font-size: 22px;
+            background-color: transparent;
+            border: none;
+            color: white;
+        }
+    }
+    .d-item-detail {
+        padding: 10px;
+    }
+}

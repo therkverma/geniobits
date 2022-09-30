@@ -1,0 +1,68 @@
+$sides: (top, bottom, left, right);
+
+@for $i from 0 through 99 {
+    @each $side in $sides {
+        .m#{str-slice($side, 0, 1)}-#{$i} {
+            margin-#{$side}: #{$i}px;
+        }
+        .p#{str-slice($side, 0, 1)}-#{$i} {
+            padding-#{$side}: #{$i}px;
+        }
+    }
+}
+
+.m-auto {
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.evenly-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.around-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.end-flex {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.f-end-flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}

@@ -1,0 +1,42 @@
+.departments-container {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+            
+    .tile-sec-part {
+        width: 70%;
+        .header-sec {
+            margin-left: 25px;
+            font-size: 25px;
+            margin-bottom: 30px;
+            span {
+                color: green;
+            }
+         }
+         .card-item-holder {
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-gap: 50px;
+         }
+    }
+    .filter-sec-part {
+        width: 30%;
+        .add-new-btn {
+            border-radius: 15px;
+            width: 250px;
+            cursor: pointer;
+            height: 50px;
+            background-color: orange;
+            color: white;
+            border: none;
+            font-size: 22px;
+        }
+        .filter-container {
+            border-radius: 15px;
+            width: 250px;
+            margin-top: 20px;
+            background-color: white;
+            padding: 20px 10px;
+        }
+    }
+}

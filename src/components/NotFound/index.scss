@@ -1,0 +1,9 @@
+.not-found-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .home-link {
+    cursor: pointer;
+    color: blue;
+  }
+}
