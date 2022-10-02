@@ -5,6 +5,9 @@
         border-spacing: 0;
         width: 100%;
 
+        .action-btn {
+            cursor: pointer;
+        }
         tr {
             :last-child {
                 td {
@@ -28,4 +31,8 @@
             }
         }
     }
+
+    tbody tr td:first-child {
+        width: 600px;
+      }
 }

@@ -9,7 +9,15 @@ import './index.scss';
 const columns = [
     {
         Header: 'Job Role',
-        accessor: 'job_role',
+        accessor: (row) => {
+            return <div className='between-flex'>
+                <div>{row.job_role}</div>
+                <div className='d-flex action-btn'>
+                    <div className='mr-10 ml-10' onClick={() => alert('Action Not Implemented')}><img src={require('../../assets/images/pencil.png')} /></div>
+                    <div className='mr-10 ml-10' onClick={() => alert('Action Not Implemented')}><img src={require('../../assets/images/trash.png')} height={16} /></div>
+                </div>
+            </div>
+        }
     },
     {
         Header: 'CTC',
