@@ -30,3 +30,27 @@ export const dummyDeptList = [
         "total_emp": 10
     }
 ]
+
+export const dummyJobRoleList = [
+    {
+        "job_role": "HR Manager",
+        "ctc": "13 LPA",
+        "shifts": "M1, M2, M3",
+        "work_hours": 4,
+        "employees": 69
+    },
+    {
+        "job_role": "HR Executive",
+        "ctc": "7 LPA",
+        "shifts": "M1, M2, M3",
+        "work_hours": 4,
+        "employees": 69
+    },
+    {
+        "job_role": "HR Head",
+        "ctc": "11 LPA",
+        "shifts": "M1, M2, M3",
+        "work_hours": 4,
+        "employees": 69
+    }
+]
