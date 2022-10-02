@@ -3,8 +3,9 @@ import { Link, useLocation } from 'react-router-dom'
 import './index.scss'
 
 export const menuList = [
-    { id: '/apps/departments', title: 'My Apps', icon: 'folder' },
-    { id: '/apps/resources', title: 'Resources', icon: 'folder' }
+    { id: '/apps/job-roles', title: 'My Apps' },
+    { id: '/apps/departments', title: 'Departments' },
+    { id: '/apps/resources', title: 'Resources' }
 ]
 
 export function SideBar() {

@@ -1,0 +1,48 @@
+.job-roles-container {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+
+    .header-part-container {
+        padding: 0px 30px 25px;
+        .header-sec {
+            font-size: 25px;
+            color: #30446F;
+            img {
+                cursor: pointer;
+                margin-right: 10px;
+                height: 20px;
+            }
+            span {
+                color: #02B293;
+            }
+         }
+        .add-new-btn {
+            border-radius: 10px;
+            width: 350px;
+            cursor: pointer;
+            height: 50px;
+            background-color: #F26724;
+            color: white;
+            border: none;
+            font-size: 22px;
+            span {
+                margin: 0 10px;
+            }
+        }
+    }
+    .table-content-holder {
+        background-color: white;
+        border-radius: 10px;
+        margin: 20px;
+        .head-title {
+            height: 40px;
+            color: #6E6D6D;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-bottom: solid 1px #ECECEC;
+        }
+    }
+}

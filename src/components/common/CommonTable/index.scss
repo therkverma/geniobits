@@ -1,0 +1,31 @@
+.commont-table-container {
+    padding: 1rem;
+
+    table {
+        border-spacing: 0;
+        width: 100%;
+
+        tr {
+            :last-child {
+                td {
+                    border-bottom: 0;
+                }
+            }
+        }
+
+        th {
+            text-align: inherit;
+            color: #6D6D6D;
+        }
+        th,
+        td {
+            margin: 0;
+            padding: 0.5rem;
+            border-bottom: 1px solid #F7FAFB;
+
+            :last-child {
+                border-right: 0;
+            }
+        }
+    }
+}
